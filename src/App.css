@@ -1,0 +1,31 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  background-color: #282c34;
+  font-size: calc(5px + 2vmin);
+  /* color: white; */
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+}
+
+h2 {
+  color: olivedrab;
+}
+
+.App img {
+  width: 250px;
+  border-radius: 15%;
+}
+
+.coin-container img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.App Button {
+  font-size: 2rem;
+  width: 150px;
+  justify-self: center;
+}
+
